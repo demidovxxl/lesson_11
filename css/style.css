@@ -1006,21 +1006,3 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 }	
 
 /* =============================================================================================== */
-.block-basic__main {
-	position: relative;
-	width: 908px;
-	height: 160px;
-	background: linear-gradient(
-			180deg,
-			rgba(242, 242, 244, 1) 0%,
-			rgba(242, 242, 244, 1) 7%,
-			rgba(167, 168, 172, 1) 40%,
-			rgba(207, 207, 209, 1) 70%,
-			rgba(207, 207, 209, 1) 80%
-		),
-		linear-gradient(-6deg, #454547 0%, #454547 23%, #ceced0 28%, #ceced0 100%),
-		linear-gradient(135deg, #afafb1 0%, #ceced0 100%);
-	border-radius: 326px 43px 77px 189px / 90px 89px 78px 35px;
-	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4), -3px 1px 3px rgba(0, 0, 0, 0.4);
-	z-index: 1;
-}
