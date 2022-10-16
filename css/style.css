@@ -20,7 +20,6 @@
 	left: 50%;
 	transform: translate(-49%, -5%);
 	opacity: 1;
-	bottom: 200;
 	right: -500px;
 	width: 830px;
 	height: 179px;
@@ -335,7 +334,6 @@
 	left: 50%;
 	transform: translate(-49%, -5%);
 	opacity: 1;
-	bottom: 200;
 	right: -500px;
 	width: 830px;
 	height: 179px;
@@ -625,7 +623,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	background: rgba(0, 0, 0, 1);
 	border-radius: 50%;
 	transform: rotate(0deg);
-	border: 1px solid rgba(255, 255, 255, 1.5);;
+	border: 1px solid rgba(255, 255, 255, 1);;
 	overflow: hidden;
 }
 
@@ -635,7 +633,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	top: 0px;
 	width: 1.5px;
 	height: 45px;
-	background: rgba(255, 255, 255, 1.5);
+	background: rgba(255, 255, 255, 1);
 	transform: rotate(-25deg);
 }
 .tire__logo:nth-child(2){
@@ -644,7 +642,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	top: -4px;
 	width: 1.5px;
 	height: 50px;
-	background: rgba(255, 255, 255, 1.5);
+	background: rgba(255, 255, 255, 1);
 	transform: rotate(25deg);
 }
 .tire__logo:nth-child(3){
@@ -653,7 +651,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	top: -4px;
 	width: 1.5px;
 	height: 45px;
-	background: rgba(255, 255, 255, 1.5);
+	background: rgba(255, 255, 255, 1);
 	transform: rotate(-25deg);
 }
 .tire__logo:nth-child(4){
@@ -662,7 +660,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	top: 0px;
 	width: 1.5px;
 	height: 45px;
-	background: rgba(255, 255, 255, 1.5);
+	background: rgba(255, 255, 255, 1);
 	transform: rotate(25deg);
 }
 
@@ -712,7 +710,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	width: 20px;
 	height: 55px;
 	transform: skew(-58deg);
-	background: rgba(58, 156, 255, 1.6);
+	background: rgba(58, 156, 255, 1);
 	border-radius: 50% 50% 40% 0% / 30% 5% 0% 0%;
 	border: 2px solid	rgb(55, 55, 55);
 	border-left: none;
@@ -827,7 +825,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 
 /* ========================================================== light-left ==========================================================*/
 
-.base__light-left{
+.kuzov__light-left{
 	position: absolute;
 	top: 24%;
 	left: -10px;
@@ -838,7 +836,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	border-right: 70px solid transparent;
 	
 }
-.base__light-left::after{
+.kuzov__light-left::after{
 	content: "";
 	position: absolute;
 	top: -50px;
@@ -852,23 +850,9 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	
 }
 
-/* ========================================================== base__porog ==========================================================*/
-
-.base__porog{
-	position: absolute;
-	bottom: 0%;
-	left: 26%;
-	width: 347px;
-	height: 20px;
-	/* transform: skew(-60deg) rotate(-3deg); */
-	background: rgba(0, 0, 0, 0.8);
-	border-radius: 50% 0% 40% 20% / 50% 0% 40% 10%;
-	background: linear-gradient(180deg, rgba(52,52,52,1) 0%, rgba(83,83,83,1) 32%, rgba(0,0,0,1) 100%);
-}
-
 /* ========================================================== light-right ==========================================================*/
 
-.base__light-right span:nth-child(1){
+.kuzov__light-right span:nth-child(1){
 	display: inline-block;
 	position: absolute;
 	top: 15px;
@@ -882,7 +866,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	border-radius: 10% 0% 0% 0% / 30% 0% 0% 0%;
 }
 
-.base__light-right span:nth-child(2){
+.kuzov__light-right span:nth-child(2){
 	display: inline-block;
 	position: absolute;
 	top: 30px;
@@ -897,7 +881,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	box-shadow: -0px 0px 7px 5px rgba(125, 0, 0, 0.69);
 
 }
-.base__light-right span:nth-child(3){
+.kuzov__light-right span:nth-child(3){
 	display: inline-block;
 	position: absolute;
 	top: 50px;
@@ -910,7 +894,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	border: 1px solid rgb(0, 0, 0);
 	box-shadow: -0px 0px 7px 5px rgba(125, 0, 0, 0.69);
 }
-.base__light-right span:nth-child(4){
+.kuzov__light-right span:nth-child(4){
 	display: inline-block;
 	position: absolute;
 	top: 70px;
@@ -923,6 +907,21 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	border: 1px solid rgb(0, 0, 0);
 	border-radius: 0% 0% 0% 20% / 0% 0% 0% 40%;
 	box-shadow: -0px 0px 7px 5px rgba(125, 0, 0, 0.69);
+}
+
+
+/* ========================================================== base__porog ==========================================================*/
+
+.base__porog{
+	position: absolute;
+	bottom: 0%;
+	left: 26%;
+	width: 347px;
+	height: 20px;
+	/* transform: skew(-60deg) rotate(-3deg); */
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 50% 0% 40% 20% / 50% 0% 40% 10%;
+	background: linear-gradient(180deg, rgba(52,52,52,1) 0%, rgba(83,83,83,1) 32%, rgba(0,0,0,1) 100%);
 }
 
 /* ========================================================== base__decor-line ==========================================================*/
@@ -963,7 +962,6 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	left: 19px;
 	width: 18px;
 	height: 30px;
-	transform: skew(0deg) rotate(-deg);
 	background: rgb(0, 0, 0);
 	border-radius: 50% 10% 10% 10% / 50% 10% 10% 40%;
 	border: 1px solid rgb(69, 69, 69);
@@ -976,7 +974,6 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	left: 130px;
 	width: 40px;
 	height: 10px;
-	transform: skew(0deg) rotate(-deg);
 	background: rgb(0, 0, 0);
 	border-radius: 50% 50% 10% 10% / 50% 50% 10% 10%;
 	border: 1px solid rgb(69, 69, 69);
@@ -990,7 +987,7 @@ background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(93,93,93,1) 67%
 	height: 132px;
 	transform: skew(0deg) rotate(-1deg);
 	background: rgb(102, 102, 102);
-	border: 1px solid rgb(102, 102, 102);
+	border: 1px solid rgb(103, 103, 103);
 	border-radius: 5% 0% 8% 10% / 50% 0% 70% 40%;
 	box-shadow: 0px 0px 35px 2px rgba(255, 255, 255, 0.6);
 }
