@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_refactory.css">
 	<title>Lesson 11 hw - Машина</title>
 </head>
 
@@ -18,6 +18,26 @@
 			<div class="main__car car">
 				<div class="car__container">
 					<div class="car__base base">
+						<div class="base__image-block">
+							<div class="base__image base__image-pumba">
+								<img src="img/pig.png" alt="">
+								<img src="img/pig_quote.png" alt="">
+								<img src="img/pig_quote_2.png" alt="">
+							</div>
+							<div class="base__image base__image-lion">
+								<img src="img/lion.png" alt="">
+								<img src="img/lion_quote.png" alt="">
+							</div>
+							<div class="base__image base__image-woman">
+								<img src="img/lion_woman_angry.png" alt="">
+								<img src="img/lion_woman_quote_main.png" alt="">
+							</div>
+							<div class="base__image base__image-children">
+								<img src="img/lions_small.png" alt="">
+								<img src="img/lion_small_1.png" alt="">
+								<img src="img/lion_small_2.png" alt="">
+							</div>
+						</div>
 						<div class="base__kuzov kuzov">
 							<div class="kuzov__arches arches kuzov__arches-left">
 								<div class="arches__molding arches__molding-left">
@@ -55,125 +75,68 @@
 								<span></span>
 							</div>
 						</div>
-
-						<div class="base__block">
-							<div class="base__tire tire">
-								<div class="tire__black-fantom">
-									<div class="tire__black"></div>
-								</div>
-								<div class="tire__spikes-fantom">
-									<div class="tire__spikes"></div>
-								</div>
-								<div class="tire__name-fantom">
-									<div class="tire__name"></div>
-								</div>
-								<div class="tire__disk-fantom">
-									<div class="tire__disk"></div>
-									<div class="tire__disk"></div>
-									<div class="tire__disk"></div>
-									<div class="tire__disk"></div>
-									<div class="tire__disk"></div>
-								</div>
-								<div class="tire__hole-fantom">
-									<div class="tire__hole"></div>
-									<div class="tire__hole"></div>
-									<div class="tire__hole"></div>
-									<div class="tire__hole"></div>
-									<div class="tire__hole"></div>
-								</div>
-								<div class="tire__brake-fantom">
-									<div class="tire__brake"></div>
-								</div>
-								<div class="tire__centr">
-									<div class="tire__bolt"></div>
-									<div class="tire__bolt"></div>
-									<div class="tire__bolt"></div>
-									<div class="tire__bolt"></div>
-									<div class="tire__bolt"></div>
-									<div class="tire__bolt"></div>
-									<div class="tire__vw">
-										<div class="tire__logo"></div>
-										<div class="tire__logo"></div>
-										<div class="tire__logo"></div>
-										<div class="tire__logo"></div>
-									</div>
+						<div class="kuzov__head"></div>
+						<div class="kuzov__stoyka"></div>
+						<div class="kuzov__window"></div>
+						<div class="kuzov__window-main"></div>
+						<div class="kuzov__back"></div>
+						<div class="kuzov__bamper-left"></div>
+						<div class="kuzov__bamper-right"></div>
+						<div class="kuzov__porog"></div>
+						<div class="kuzov__decor-line"></div>
+						<div class="kuzov__decor-door">
+							<span></span>
+							<span></span>
+						</div>
+						<div class="kuzov__tire tire kuzov__tire--left">
+							<div class="tire__spikes"></div>
+							<div class="tire__name"></div>
+							<div class="tire__disk-fantom">
+								<div class="tire__disk"></div>
+								<div class="tire__disk"></div>
+								<div class="tire__disk"></div>
+								<div class="tire__disk"></div>
+								<div class="tire__disk"></div>
+							</div>
+							<div class="tire__brake"></div>
+							<div class="tire__centr">
+								<div class="tire__bolt"></div>
+								<div class="tire__bolt"></div>
+								<div class="tire__bolt"></div>
+								<div class="tire__bolt"></div>
+								<div class="tire__bolt"></div>
+								<div class="tire__bolt"></div>
+								<div class="tire__vw">
+									<div class="tire__logo"></div>
+									<div class="tire__logo"></div>
+									<div class="tire__logo"></div>
+									<div class="tire__logo"></div>
 								</div>
 							</div>
-							<div class="base__tire tire base__tire--right">
-								<div class="tire__black-fantom">
-									<div class="tire__black"></div>
-								</div>
-								<div class="tire__spikes-fantom">
-									<div class="tire__spikes"></div>
-								</div>
-								<div class="tire__name-fantom">
-									<div class="tire__name"></div>
-								</div>
-								<div class="tire__disk-fantom">
-									<div class="tire__disk"></div>
-									<div class="tire__disk"></div>
-									<div class="tire__disk"></div>
-									<div class="tire__disk"></div>
-									<div class="tire__disk"></div>
-								</div>
-								<div class="tire__hole-fantom">
-									<div class="tire__hole"></div>
-									<div class="tire__hole"></div>
-									<div class="tire__hole"></div>
-									<div class="tire__hole"></div>
-									<div class="tire__hole"></div>
-								</div>
-								<div class="tire__brake-fantom">
-									<div class="tire__brake"></div>
-								</div>
-								<div class="tire__centr">
-									<div class="tire__bolt"></div>
-									<div class="tire__bolt"></div>
-									<div class="tire__bolt"></div>
-									<div class="tire__bolt"></div>
-									<div class="tire__bolt"></div>
-									<div class="tire__bolt"></div>
-									<div class="tire__vw">
-										<div class="tire__logo"></div>
-										<div class="tire__logo"></div>
-										<div class="tire__logo"></div>
-										<div class="tire__logo"></div>
-									</div>
-								</div>
+						</div>
+						<div class="kuzov__tire tire kuzov__tire--right">
+							<div class="tire__spikes"></div>
+							<div class="tire__name"></div>
+							<div class="tire__disk-fantom">
+								<div class="tire__disk"></div>
+								<div class="tire__disk"></div>
+								<div class="tire__disk"></div>
+								<div class="tire__disk"></div>
+								<div class="tire__disk"></div>
 							</div>
-							<div class="base__adds">
-								<div class="base__head"></div>
-								<div class="base__stoyka"></div>
-								<div class="base__window"></div>
-								<div class="base__window-main"></div>
-								<div class="base__back"></div>
-								<div class="base__bamper-left"></div>
-								<div class="base__bamper-right"></div>
-								<div class="base__porog"></div>
-								<div class="base__decor-line"></div>
-								<div class="base__decor-door">
-									<span></span>
-									<span></span>
-								</div>
-							</div>
-							<div class="base__image-block">
-								<div class="base__image base__image-pumba">
-									<img src="img/pig.png" alt="">
-									<img src="img/pig_quote.png" alt="">
-									<img src="img/pig_quote_2.png" alt="">
-								</div>
-								<div class="base__image base__image-lion">
-									<img src="img/lion.png" alt="">
-									<img src="img/lion_quote.png" alt="">
-								</div>
-								<div class="base__image base__image-woman">
-									<img src="img/lion_woman_angry.png" alt="">
-									<img src="img/lion_woman_quote_main.png" alt="">
-								</div>
-								<div class="base__image base__image-children">
-									<img src="img/lions_small.png" alt="">
-									<img src="img/lion_small_1.png" alt="">
-									<img src="img/lion_small_2.png" alt="">
+							<div class="tire__brake"></div>
+							<div class="tire__centr">
+								<div class="tire__bolt"></div>
+								<div class="tire__bolt"></div>
+								<div class="tire__bolt"></div>
+								<div class="tire__bolt"></div>
+								<div class="tire__bolt"></div>
+								<div class="tire__bolt"></div>
+								<div class="tire__vw">
+									<div class="tire__logo"></div>
+									<div class="tire__logo"></div>
+									<div class="tire__logo"></div>
+									<div class="tire__logo"></div>
 								</div>
 							</div>
 						</div>
